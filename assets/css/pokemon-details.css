@@ -109,6 +109,7 @@ header {
 .buttonAbout {
     background-color: #fff;
     border-bottom: 1px solid black;
+    color: #000;
     border-top: none;
     border-left: none;
     border-right: none;
@@ -130,6 +131,7 @@ header {
 .buttonMoves {
     background-color: #fff;
     border-bottom: none;
+    color:#000
     border-top: none;
     border-left: none;
     border-right: none;
