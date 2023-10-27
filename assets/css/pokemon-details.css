@@ -139,6 +139,16 @@ header {
     display: block;
 }
 
+.buttonMoves:hover{
+    padding-bottom: 0.1px;
+}
+.buttonStats:hover{
+    padding-bottom: 0.1px;
+}
+.buttonAbout:hover{
+    padding-bottom: 0.1px;
+}
+
 /* final: Menu */
 
 .pokemonInfos {
@@ -198,6 +208,11 @@ header {
     border-radius: 50%;
     padding: 3px 10px 5px;
     background: rgba(255, 255, 255, 0.2);
+    
+}
+
+.close:hover{
+    filter: brightness(1.1);
 }
 
 @media all and (min-width: 475px) {
