@@ -115,7 +115,7 @@ function getPokemonChosen(num) {
 
         popup.innerHTML = newHtml;
 
-        console.log(pokemonEscolhido[0]);
+        // console.log(pokemonEscolhido[0]);
 
         htmlClose.classList.add("close");
         htmlClose.innerText = "x";
