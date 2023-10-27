@@ -1,0 +1,145 @@
+a{
+    color: #fff;
+    text-decoration: none;
+}
+.pokemon {
+    background-color: #06c3a4;
+    color: #fff;
+    border-radius: 1rem;
+    margin: .2rem;
+    padding: .7rem 1rem;
+    display: flex;
+    flex-direction: column;
+    min-width: 170px;
+    max-width: 300px;
+}
+
+.cabecalhoPokemon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 30px;
+    width: 100%;
+}
+
+.numeroPokemon{
+    opacity:15%;
+    color: #000;
+    text-align: right;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.nomePokemon{
+    margin-top: 6%;
+    text-transform: capitalize;
+}
+
+.detalhesPokemon{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.detalhesPokemon img{
+    max-width: 130px;
+    height: 100px;
+    align-self: center;
+}
+
+.detalhesPokemon ol{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+
+.tipoPokemon{
+    background-color: #fff;
+    opacity: 40%;
+    color: #60bdad;
+    border-radius: 1rem;
+    padding: .25rem .5rem;
+    margin: .15rem 0;
+    width: 100%;
+    height: 1.2rem;
+    font-size: 0.6rem;
+    text-align: center;
+}
+
+
+.normal {
+    background-color: #a6a877;
+}
+
+.grass {
+    background-color: #1fd5a5;
+}
+
+.fire {
+    background-color: #fe7f78;
+}
+
+.water {
+    background-color: #82a0e4;
+}
+
+.electric {
+    background-color: #f0d051;
+}
+
+.ice {
+    background-color: #98d5d7;
+}
+
+.ground {
+    background-color: #d1b159;
+}
+
+.flying {
+    background-color: #a98ff0;
+}
+
+.poison {
+    background-color: #955c95;
+}
+
+.fighting {
+    background-color: #bf3029;
+}
+
+.psychic {
+    background-color: #e95d87;
+}
+
+.dark {
+    background-color: #725847;
+}
+
+.rock {
+    background-color: #bfab4f;
+}
+
+.bug {
+    background-color: #c3cd67;
+}
+
+.ghost {
+    background-color: #6e5896;
+}
+
+.steel {
+    background-color: #b9b7cf;
+}
+
+.dragon {
+    background-color: #6f38f6;
+}
+
+.fairy {
+    background-color: #f9aec7;
+}
