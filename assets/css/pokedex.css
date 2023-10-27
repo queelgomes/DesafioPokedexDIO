@@ -12,6 +12,7 @@ a{
     flex-direction: column;
     min-width: 170px;
     max-width: 300px;
+    cursor: pointer;
 }
 
 .cabecalhoPokemon{
@@ -142,4 +143,8 @@ a{
 
 .fairy {
     background-color: #f9aec7;
+}
+
+pokemon:hover{
+    drop-shadow: 2 2 5px black;
 }
