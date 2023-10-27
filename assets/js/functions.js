@@ -80,7 +80,7 @@ function getPokemonChosen(num) {
                         <ol class="infoDescription">
                             <li>${pokemonEscolhido[0].typeMain}</li>
                             <li>${pokemonEscolhido[0].height} cm</li>
-                            <li>${pokemonEscolhido[0].weight} kg</li>
+                            <li>${pokemonEscolhido[0].weight/10} kg</li>
                             <li>${pokemonEscolhido[0].ability.join(", ")}</li>
                         </ol>
                     </div>
